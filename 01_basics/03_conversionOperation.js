@@ -17,3 +17,4 @@ let BooleanIsLoggedIn= Boolean(IsLoggedIn);
 console.log(IsLoggedIn, "is coverted to Boolean =",BooleanIsLoggedIn)
 //1 => true; 0 => false; 5 => true
 //"" => false; "halo" => true
+h
