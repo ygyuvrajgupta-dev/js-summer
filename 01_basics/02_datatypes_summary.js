@@ -26,7 +26,28 @@ let MyObj = {
 
 }
 
-const MyFunction = mfunction() {
-    console.log("Hello World");
+// const MyFunction = mfunction() {
+//     console.log("Hello World");
+// }
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack And Heap Memory
+// Stack Memory are Use In Primitive Data Types And Heap Memory Is Used In Non-Primitive 
+let MyName = "Yuvraj"
+let name = MyName
+name = "YG"
+// console.log(MyName);
+// console.log(name);
+
+let UserOne = {
+    email:"ygupta@gmail.com",
+    uid:123456,
+    upiId:"okhdfc@ybl",
 }
+
+let UserTwo = UserOne;
+UserTwo.email="mehta@gmail.com"
+console.log(UserOne.email)
+console.log(UserTwo.email)
+
 // node 01_basics/02_datatypes_summary.js
