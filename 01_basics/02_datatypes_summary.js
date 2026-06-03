@@ -17,4 +17,16 @@ const AnotherId = Symbol('123')
 
 const BigNumber = 356214789123458n
 // console.log(typeof BigNumber)
+
+const hero = ["Shaktiman","Nagraj","Naruto"]
+
+let MyObj = {
+    Name: "Yuvraj",
+    Age: 18,
+
+}
+
+const MyFunction = mfunction() {
+    console.log("Hello World");
+}
 // node 01_basics/02_datatypes_summary.js
