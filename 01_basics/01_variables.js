@@ -8,3 +8,4 @@ accountPassword = "12276"
 accountCity = "Kanpur"
 console.log(accountId);
 console.table([accountId,accountEmail,accountPassword,accountCity ])
+//halo
